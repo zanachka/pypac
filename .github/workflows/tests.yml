@@ -26,4 +26,4 @@ jobs:
         pip install --prefer-binary -e .[dev]
     - name: Test with pytest and coverage
       run: |
-        pytest --cov=pypac
+        pytest -s --cov=pypac
